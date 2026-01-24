@@ -22,8 +22,6 @@ const (
 	DBPassword = "P@ssw0rd!2024Secure" // 🚨 HARDCODED PASSWORD
 	DBName     = "production_db"
 	APIKey     = "sk-live-51AbCdEf1234567890" // 🚨 HARDCODED API KEY
-	AWSKey     = "AKIAIOSFODNN7EXAMPLE"       // 🚨 AWS ACCESS KEY
-	AWSSecret  = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" // 🚨 AWS SECRET
 )
 
 var db *sql.DB

@@ -19,7 +19,6 @@ const DB_CONFIG = {
 	database: 'production_db'
 };
 
-const STRIPE_SECRET_KEY = 'sk_live_51AbCdEfGhIjKlMnOpQrStUvWxYz1234567890'; // 🚨 HARDCODED
 const JWT_SECRET = 'my-secret-jwt-key-not-random-at-all'; // 🚨 WEAK SECRET
 
 // Database connection (using raw queries - no ORM)
@@ -211,5 +210,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
 	console.log(`🚨 Vulnerable server running on HTTP at port ${PORT}`);
 	console.log(`🔓 Database: ${DB_CONFIG.host} - User: ${DB_CONFIG.user}`);
-	console.log(`🔑 Stripe Key: ${STRIPE_SECRET_KEY}`);
 });
