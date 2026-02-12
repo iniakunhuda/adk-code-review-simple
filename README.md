@@ -2,6 +2,11 @@
 
 An autonomous multi-agent system powered by Google ADK (Agent Development Kit) that automatically reviews code, analyzes quality, and scans for security vulnerabilities.
 
+# Article
+
+Please view this article to get know detail about implementation
+https://iniakunhuda.medium.com/build-simple-ai-agent-using-google-adk-6e34b2564c7c
+
 ## 🌟 Features
 
 - **Multi-Agent Architecture**: Specialized agents for different analysis tasks
