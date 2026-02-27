@@ -309,7 +309,7 @@ litellm>=0.1.0       # LiteLLM for multi-provider support
 
 ## 🔒 Security Note
 
-**⚠️ DO NOT commit your `.env` file** - it contains sensitive API keys. The `.gitignore` file is configured to exclude it.
+**⚠️ DO NOT commit your `.env` file** - it contains sensitive API keys
 
 ## 📝 License
 
