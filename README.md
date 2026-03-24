@@ -1,6 +1,6 @@
 # 🔍 Code Review Assistant
 
-An autonomous multi-agent system powered by Google ADK (Agent Development Kit) that automatically reviews code, analyzes quality, and scans for security vulnerabilities.
+A multi-agent system powered by Google ADK (Agent Development Kit) that automatically reviews code, analyzes quality, and scans for security vulnerabilities.
 
 # Article
 
